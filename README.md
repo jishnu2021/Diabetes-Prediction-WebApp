@@ -39,11 +39,24 @@ To run this project locally, follow these steps:
 3.Ensure you have the saved model file (trained_model.sav) in the project directory.
 
 
-Usage
+## Usage
 To start the Streamlit web application, run the following command:
 streamlit run app.py
 
 
+## Model Training
+The machine learning model is trained using the Pima Indians Diabetes Dataset. The following steps outline the training process:
+
+Preprocessing: Standardize the input features using StandardScaler.
+Model Training: Train a Support Vector Machine (SVM) on the standardized data.
+Saving the Model: Save the trained model using pickle for later use in the web application.
+
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
